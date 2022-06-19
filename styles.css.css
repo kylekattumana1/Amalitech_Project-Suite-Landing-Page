@@ -45,7 +45,7 @@
   }
   
   .request{
-    margin-left: 11rem;
+    margin-left: 75rem;
     background-color: var(--light);
     text-align: center;
     border: 1px solid var(--primary);
@@ -119,25 +119,28 @@
   }
   
   .betarequest:hover {
-    background-image: linear-gradient(to bottom right, #A060FF, #CB30E3, #FFA84E);
+    background-color:  #FFA84E;
     border: none;
   }
   
   /* hero phone */
   .phones {
-    position: relative;
+    position: absolute;
     right: 19.9rem;
     z-index: -1;
     background-image: url('/assets/image-hero-portrait.webp');
     background-repeat: no-repeat;
     width: 23rem;
+    top: 64px;
+    right: 25.9rem;
   }
   
-  /* Hero Rating */
+  /*  Rating */
   .ratings {
-    position: relative;
-    right: 16rem;
     margin: auto;
+    position: absolute;
+  right: 65px;
+  margin: 65px;
   }
   
   /* numbers */
@@ -152,7 +155,7 @@
     top: -3rem;
   }
   
-  /* Review Styling */
+  /* Reviews */
   .rectangle {
     grid-area: review;
     background-color: var(--primary);
@@ -164,8 +167,10 @@
     width: 75.5rem;
     height: 34rem;
     position: relative;
-    top: 2rem;
+    top: -4rem;
     margin-bottom: -15rem;
+    margin-left: 41px;
+
   }
   
   .jeremy-pic {
@@ -427,12 +432,14 @@
   
   /* hero phone */
   .phones {
-    position: relative;
+    position: absolute;
     left: 0.1rem;
     width: 50rem;
     height: 30rem;
     background-image: url("/assets/image-hero-landscape@2x.png");;
     background-repeat: no-repeat;
+    top: 44px;
+    right: 25.9rem;
   }
   
   .rectangle {
